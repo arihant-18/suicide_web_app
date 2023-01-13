@@ -2,7 +2,7 @@ import pymongo
 from flask import Flask, render_template, request
 from pymongo.server_api import ServerApi
 
-client = pymongo.MongoClient("mongodb+srv://arihant:7ELd5M1DQtCYO2Ks@cluster0.omldzri.mongodb.net/?retryWrites=true&w"
+client = pymongo.MongoClient("mongodb+srv://arihant:SacBbLMlitg6dKTh@cluster0.omldzri.mongodb.net/?retryWrites=true&w"
                              "=majority", server_api=ServerApi('1'))
 
 db = client.get_database('project')
